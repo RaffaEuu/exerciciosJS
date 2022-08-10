@@ -12,30 +12,38 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container" style="margin-top: 5%">
-      <!-- <div class="col-md-4"></div> -->
-      <div class="col-md-4">
-        <div class="row">
-          <form name="preencha">
-            <div class="form-group">
-              <input type="text" placeholder="Nome" />
-            </div>
-            <div class="form-group">
-              <input type="number" placeholder="idade" />
-            </div>
-            <div class="form-group">
-              <input type="number" placeholder="CEP" />
-            </div>
-            <div class="form-group">
-              <input type="text" placeholder="Nick" />
-            </div>
+    <div class="container" style="margin-top: 8%">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <div class="card-header">Preencha o formuário</div>
+          <div class="card-body">
+            <div class="text-center"></div>
+            <form name="preencha">
+              <div class="form-group">
+                <label for="nome">Nome:</label> <br />
+                <input type="text" placeholder="Nome" />
+              </div>
+              <div class="form-group">
+                <label for="">idade:</label> <br />
+                <input type="number" placeholder="idade" />
+              </div>
+              <div class="form-group">
+                <label for="">CEP:</label> <br />
+                <input type="number" placeholder="CEP" />
+              </div>
+              <div class="form-group">
+                <label for="">Nick:</label> <br />
+                <input type="text" placeholder="Nick" />
+              </div>
 
-            <input
-              type="submit"
-              value="Enviar"
-              class="btn btn-primary btn-block"
-            />
-          </form>
+              <input
+                type="submit"
+                value="Enviar"
+                class="btn btn-primary btn-block"
+              />
+            </form>
+          </div>
         </div>
       </div>
     </div>
