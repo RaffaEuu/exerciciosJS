@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    text-align: center;
+    
+    color: #333;
+}
+.titulo{
+    font-family: DM Sans;
+}
+.botoes{
+    display: inline-block;
+    text-align: left;
+    padding-right: 35rem;
+}

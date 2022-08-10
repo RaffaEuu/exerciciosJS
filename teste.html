@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <title>Avaliação on-line</title>
+  </head>
+  <body>
+    <h1 class="titulo">Avaliação on-line</h1>
+    <h2>Responda as questões abaixo:</h2>
+    <h3>Qual das opções abaixo não é uma Capital do Brasil?</h3>
+    <div class="botoes">
+      <br>
+      <hr>
+      <input type="button" value="A" onclick="incorreta()" />CURITIBA<br />
+      <input type="button" value="B" onclick="incorreta()" />FLORIANÓPOLIS<br />
+      <input type="button" value="C" onclick="incorreta()" />SÃO PAULO<br />
+      <input type="button" value="D" onclick="correta('D')" />CAMPINAS<br />
+      <input type="button" value="E" onclick="incorreta()" />RIO BRANCO<br />
+
+      <br>
+      <hr>
+
+      <h3>De quem é a famosa frase “Penso, logo existo”?</h3>
+      <input type="button" value="A" onclick="incorreta()" />Platão<br />
+      <input type="button" value="B" onclick="incorreta()" />Aristóteles<br />
+      <input type="button" value="C" onclick="correta('C')" />René Decastros<br />
+      <input type="button" value="D" onclick="incorreta()" />Julio Verne<br />
+      <input type="button" value="E" onclick="incorreta()" />Roberto Carlos<br />
+
+      <br>
+      <hr>
+
+      <h3>Quais o menor e o maior país do mundo?</h3>
+      <input type="button" value="A" onclick="correta('A')" />Vaticano e
+      Rússia<br />
+      <input type="button" value="B" onclick="incorreta()" />Nauru e China<br />
+      <input type="button" value="C" onclick="incorreta('C')" />Mônaco e
+      Canadá<br />
+      <input type="button" value="D" onclick="incorreta()" />Malta e Estados
+      Unidos<br />
+      <input type="button" value="E" onclick="incorreta()" />São Marino e
+      Índia<br />
+    </div>
+  </body>
+</html>
