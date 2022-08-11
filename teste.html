@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js"></script>
     <title>Avaliação on-line</title>
@@ -16,39 +17,64 @@
   <body>
     <h1 class="titulo">Avaliação on-line</h1>
     <h2>Responda as questões abaixo:</h2>
-    <h3>Qual das opções abaixo não é uma Capital do Brasil?</h3>
     <div class="botoes">
-      <br>
-      <hr>
-      <input type="button" value="A" onclick="incorreta()" />CURITIBA<br />
-      <input type="button" value="B" onclick="incorreta()" />FLORIANÓPOLIS<br />
-      <input type="button" value="C" onclick="incorreta()" />SÃO PAULO<br />
-      <input type="button" value="D" onclick="correta('D')" />CAMPINAS<br />
-      <input type="button" value="E" onclick="incorreta()" />RIO BRANCO<br />
+      <h3>Qual das opções abaixo não é uma Capital do Brasil?</h3>
 
-      <br>
-      <hr>
+      <hr />
+      
+      <input type="button" value="A" onclick="incorreta()" class="botao" />&nbsp; <p>CURITIBA</p> <br />
+      <input type="button" value="B" onclick="incorreta()" class="botao"/>&nbsp; <p>FLORIANÓPOLIS</p> <br />
+      <input type="button" value="C" onclick="incorreta()" class="botao"/>&nbsp; <p>SÃO PAULO</p> <br />
+      <input type="button" value="D" onclick="correta('D')" class="botao"/>&nbsp; <p>CAMPINAS</p> <br />
+      <input type="button" value="E" onclick="incorreta()" class="botao"/>&nbsp; <p>RIO BRANCO</p> <br />
+
+      <br />
+      <hr />
 
       <h3>De quem é a famosa frase “Penso, logo existo”?</h3>
-      <input type="button" value="A" onclick="incorreta()" />Platão<br />
-      <input type="button" value="B" onclick="incorreta()" />Aristóteles<br />
-      <input type="button" value="C" onclick="correta('C')" />René Decastros<br />
-      <input type="button" value="D" onclick="incorreta()" />Julio Verne<br />
-      <input type="button" value="E" onclick="incorreta()" />Roberto Carlos<br />
+      <input type="button" value="A" onclick="incorreta()" class="botao"/>&nbsp; <p>Platão</p> <br />
+      <input type="button" value="B" onclick="incorreta()" class="botao"/>&nbsp; <p>Aristóteles</p> <br />
+      <input type="button" value="C" onclick="correta('C')" class="botao"/>&nbsp; <p>René Decastros</p> <br />
+      <input type="button" value="D" onclick="incorreta()" class="botao"/>&nbsp; <p>Julio Verne</p> <br />
+      <input type="button" value="E" onclick="incorreta()" class="botao"/>&nbsp; <p>Roberto Carlos</p> <br />
 
-      <br>
-      <hr>
+      <br />
+      <hr />
 
       <h3>Quais o menor e o maior país do mundo?</h3>
-      <input type="button" value="A" onclick="correta('A')" />Vaticano e
-      Rússia<br />
-      <input type="button" value="B" onclick="incorreta()" />Nauru e China<br />
-      <input type="button" value="C" onclick="incorreta('C')" />Mônaco e
-      Canadá<br />
-      <input type="button" value="D" onclick="incorreta()" />Malta e Estados
-      Unidos<br />
-      <input type="button" value="E" onclick="incorreta()" />São Marino e
-      Índia<br />
+      <input type="button" value="A" onclick="correta('A')" class="botao"/>&nbsp; <p>Vaticano e
+        Rússia</p> <br />
+      <input type="button" value="B" onclick="incorreta()" class="botao"/>&nbsp; <p>Nauru e China</p> <br />
+      <input type="button" value="C" onclick="incorreta()" class="botao"/>&nbsp; <p>Mônaco e Canadá</p> <br />
+      <input type="button" value="D" onclick="incorreta()" class="botao"/>&nbsp; <p>Malta e Estados
+        Unidos</p> <br />
+      <input type="button" value="E" onclick="incorreta()" class="botao"/>&nbsp; <p>São Marino e
+        Índia</p> <br />
+
+      <h3>Qual o livro mais vendido no mundo a seguir à Bíblia?</h3>
+
+      <hr />
+      <input type="button" value="A" onclick="incorreta()" class="botao"/>&nbsp; <p>O Senhor dos
+        Anéis</p> <br />
+      <input type="button" value="B" onclick="correta('B')" class="botao"/>&nbsp; <p>Dom Quixote</p> <br />
+      <input type="button" value="C" onclick="incorreta()" class="botao"/>&nbsp; <p>O Pequeno
+        Príncipe</p> <br />
+      <input type="button" value="D" onclick="incorreta()" class="botao"/>&nbsp; <p>Ela, a Feiticeira</p> <br />
+      <input type="button" value="E" onclick="incorreta()" class="botao"/>&nbsp; <p>Um Conto de Duas
+        Cidades</p> <br />
+
+      <br />
+
+      <h3>Atualmente, quantos elementos químicos a tabela periódica possui?</h3>
+
+      <hr />
+      <input type="button" value="A" onclick="incorreta()" class="botao"/>&nbsp; <p>113</p>  <br />
+      <input type="button" value="B" onclick="incorreta()" class="botao"/>&nbsp; <p>109</p> <br />
+      <input type="button" value="C" onclick="incorreta()" class="botao"/>&nbsp; <p>108</p> <br />
+      <input type="button" value="D" onclick="correta('D')"class="botao" />&nbsp; <p>118</p> <br />
+      <input type="button" value="E" onclick="incorreta()" class="botao"/>&nbsp; <p>92</p> <br />
+
+
     </div>
   </body>
 </html>
