@@ -21,31 +21,33 @@
             <div class="text-center"></div>
             <form name="preencha">
               <div class="form-group">
-                <label for="nome">Nome:</label> <br />
-                <input type="text" placeholder="Nome" />
+                <label for="">Nome:</label> <br />
+                <input type="text" placeholder="Nome" class="form-control" name="nome"/>
               </div>
               <div class="form-group">
                 <label for="">idade:</label> <br />
-                <input type="number" placeholder="idade" />
+                <input type="number" placeholder="idade" class="form-control" name="idade"/>
               </div>
               <div class="form-group">
                 <label for="">CEP:</label> <br />
-                <input type="number" placeholder="CEP" />
+                <input type="text" placeholder="CEP" class="form-control" maxlength="8" name="cep"/>
               </div>
               <div class="form-group">
                 <label for="">Nick:</label> <br />
-                <input type="text" placeholder="Nick" />
+                <input type="text" placeholder="Nick" class="form-control" name="nick"/>
               </div>
 
               <input
                 type="submit"
                 value="Enviar"
                 class="btn btn-primary btn-block"
+                onclick="enviar()"
               />
             </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="js/script4.js"></script>
   </body>
 </html>

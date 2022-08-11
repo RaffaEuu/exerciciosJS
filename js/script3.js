@@ -3,6 +3,6 @@ function acesso() {
     if (recidade >= 18) {
         window.open("https://youtube.com")
     } else{
-        alert("voce não é digno\n sai fora...")
+        alert("voce não pode\n sai fora...")
     }
 }
