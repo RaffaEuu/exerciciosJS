@@ -48,5 +48,5 @@ p{
 .botao:hover{
   background-color: white;
   color: black;
-  trasn
+  transition: 500ms;
 }

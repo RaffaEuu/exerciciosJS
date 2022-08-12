@@ -1,0 +1,12 @@
+#meuprogresso{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    background-color: #ddd;
+}
+#barra{
+    width: 10px;
+    height: 30px;
+    position: relative;
+    background-color: green;
+}
